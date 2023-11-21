@@ -89,3 +89,16 @@ tr:nth-child(even) td {
   background-color: #303030;
   /* Εναλλακτικό γκρι για γραμμές πίνακα */
 }
+
+@media (max-width: 768px) {
+
+  form,
+  table {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  table {
+    width: auto;
+  }
+}
