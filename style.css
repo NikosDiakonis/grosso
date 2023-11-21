@@ -102,3 +102,21 @@ tr:nth-child(even) td {
     width: auto;
   }
 }
+
+form,
+table {
+  max-width: 600px;
+  /* ή οποιοδήποτε άλλο πλάτος προτιμάτε */
+  margin: 0 auto;
+  /* Κεντράρει το στοιχείο */
+}
+
+@media (max-width: 768px) {
+
+  input,
+  button {
+    width: 100%;
+    padding: 15px;
+    /* Μεγαλύτερο padding για καλύτερη χρήση σε αφής οθόνη */
+  }
+}
