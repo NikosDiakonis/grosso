@@ -1,0 +1,90 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(#000000, rgb(42, 39, 39));
+  /* Μαύρο ή σκούρο γκρι ως background */
+  color: #ffffff;
+  /* Άσπρο κείμενο */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form,
+table {
+  background-color: #282828;
+  /* Σκούρο γκρι για τα στοιχεία της φόρμας και του πίνακα */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  width: auto;
+}
+
+h2 {
+  color: #ff6347;
+  /* Έντονο πορτοκαλί για τίτλους */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #9acd32;
+  /* Ανοιχτό πράσινο για ετικέτες */
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #333;
+  /* Σκούρο γκρι για τα πεδία εισαγωγής */
+  color: #ffffff;
+  /* Άσπρο κείμενο */
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  background-color: #556b2f;
+  /* Σκούρο πράσινο για κουμπιά */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #6b8e23;
+  /* Φωτεινότερο πράσινο όταν το ποντίκι περνάει πάνω από το κουμπί */
+}
+
+
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+  margin-top: 20px;
+  table-layout: fixed;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #444;
+  word-wrap: break-word;
+}
+
+th {
+  background-color: #556b2f;
+  /* Σκούρο πράσινο για κεφαλίδες πίνακα */
+  color: white;
+}
+
+tr:nth-child(even) td {
+  background-color: #303030;
+  /* Εναλλακτικό γκρι για γραμμές πίνακα */
+}

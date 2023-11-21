@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>boxes</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div>
+    <h2>Κόλπο Γκρόσο Κιβωτίων</h2>
+    <form id="weightForm">
+      <label for="totalWeight">Συνολικό Βάρος:</label><br>
+      <input type="number" id="totalWeight" name="totalWeight"><br>
+      <label for="totalBoxes">Αριθμός Κιβωτίων:</label><br>
+      <input type="number" id="totalBoxes" name="totalBoxes"><br><br>
+      <input type="button" value="Υπολογισμός" onclick="calculateAverageWeight()">
+    </form>
+
+    <h2>Αποτελέσματα:</h2>
+    <table id="results" border="1">
+      <tr>
+        <th>Τελικές Τιμές</th>
+        <th>Άθροισμα Τελικών Τιμών</th>
+      </tr>
+      <tr>
+        <td id="finalValues"></td>
+        <td id="sumFinalValues"></td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
