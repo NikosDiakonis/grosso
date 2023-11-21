@@ -1,6 +1,7 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  background: linear-gradient(#000000, rgb(42, 39, 39));
+  /* background: linear-gradient(#000000, rgb(42, 39, 39)); */
+  background-color: black;
   /* Μαύρο ή σκούρο γκρι ως background */
   color: #ffffff;
   /* Άσπρο κείμενο */
